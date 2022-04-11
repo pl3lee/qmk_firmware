@@ -71,3 +71,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define NO_ACTION_ONESHOT
 
 #define TAP_CODE_DELAY 50
+
+#define FORCE_NKRO
+
+/* Change USB Polling Rate to 1000hz and a larger keys per scan for elite gaming*/
+#define USB_POLLING_INTERVAL_MS 1
+#define QMK_KEYS_PER_SCAN 12
